@@ -19,7 +19,7 @@ function App() {
       <h1>Full Stack App</h1>
       <p>Jokes : {jokes.length}</p>
       {jokes.map((joke, index) => (
-        <div className="" key={joke.id}>
+        <div className="" key={index}>
           <h3>{joke.title}</h3>
           <p>{joke.content}</p>
         </div>
